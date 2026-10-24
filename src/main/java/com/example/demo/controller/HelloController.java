@@ -8,7 +8,7 @@ public class HelloController {
 
   @GetMapping("/")
   public String hello() {
-    System.out.println("test");
+    System.out.println("install docker at host");
     return "Hello from CI/CD Pipleine";
   }
 }
